@@ -19,7 +19,7 @@ layout: page
                     <%- truncate(strip_html(post.content), {length: 200, omission: '...'}) %>...
                 </div>
             </a>
-            <% if (config.home_posts_tag){%>
+            <!-- <% if (config.home_posts_tag){%>
                 <p class="post-meta" style="margin: 10px 0;">
                     Posted by <%- post.author || config.author %> on
                     <%= post.date.format(config.date_format) %>
@@ -34,7 +34,7 @@ layout: page
                     Posted by <%- post.author || config.author %> on
                     <%= post.date.format(config.date_format) %>
                 </p>
-            <%}%>
+            <%}%> -->
 
         </div>
         <hr>
