@@ -177,7 +177,7 @@ path: baidusitemap.xml
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/wish1994/wish1994.github.io.git
+  repo: 
       github: https://github.com/wish1994/wish1994.github.io.git
       coding:
   branch: master
